@@ -16,7 +16,7 @@ int main(int argc, const char* argv[]) {
         MNN_PRINT("Usage: ./yolov8_demo.out model.mnn input.jpg [forwardType] [precision] [thread]\n");
         return 0;
     }
-    int thread = 4;
+    int thread = 1;
     int precision = 0;
     int forwardType = MNN_FORWARD_CPU;
     if (argc >= 4) {
